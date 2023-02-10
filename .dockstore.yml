@@ -7,4 +7,5 @@ notebooks:
     otherFiles:
       - /data
       - /info.txt
+    publish: true
     

@@ -1,12 +1,17 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/python",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-python.python",
-                "ms-toolsai.jupyter"
-            ]
-        }
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "waitFor": "onCreateCommand",
+  "postCreateCommand": "",
+  "customizations": {
+    "codespaces": {
+      "openFiles": []
     },
-    "postAttachCommand": "code /workspaces/simple-notebook/notebook.ipynb"
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python"
+      ]
+    }
+  },
+  "postAttachCommand": "code /workspaces/simple-notebook/notebook.ipynb"
 }

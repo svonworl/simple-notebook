@@ -1,11 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "waitFor": "postCreateCommand",
-  "postCreateCommand": "",
   "customizations": {
-    "codespaces": {
-      "openFiles": []
-    },
     "vscode": {
       "extensions": [
         "ms-toolsai.jupyter",

@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "postAttachCommand": "code /workspaces/simple-notebook/notebook.ipynb",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -7,6 +7,5 @@
         "ms-python.python"
       ]
     }
-  },
-  "postAttachCommand": "code /workspaces/simple-notebook/notebook.ipynb"
+  }
 }

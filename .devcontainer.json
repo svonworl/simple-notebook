@@ -1,6 +1,8 @@
 {
-  "postAttachCommand": "code /workspaces/simple-notebook/notebook.ipynb",
   "customizations": {
+    "codespaces": {
+      "openFiles": [ "notebook.ipynb" ],
+    },
     "vscode": {
       "extensions": [
         "ms-toolsai.jupyter",

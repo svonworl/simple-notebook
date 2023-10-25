@@ -1,5 +1,5 @@
 {
-    "image": "jupyter/minimal-notebook:notebook-6.4.3",
+    "image": "jupyter/minimal-notebook:latest",
     "customizations": {
         "vscode": {
             "extensions": [

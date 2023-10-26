@@ -1,5 +1,5 @@
 {
-    "postAttachCommand": "code /workspaces/simple-notebook/notebook.ipynb; echo a",
+    "postAttachCommand": "code /workspaces/simple-notebook/notebook.ipynb; echo sub",
     "customizations": {
         "vscode": {
             "extensions": [

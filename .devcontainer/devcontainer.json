@@ -1,0 +1,11 @@
+{
+    "postAttachCommand": "code /workspaces/simple-notebook/notebook.ipynb",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-python.python"
+            ]
+        }
+    }
+}

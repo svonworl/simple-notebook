@@ -1,5 +1,8 @@
 version: 1.2
 notebooks:
-  - name: simple
-    path: /notebook.ipynb
+  - name: a
+    path: /a.ipynb
+    publish: true
+  - name: b
+    path: /b.ipynb
     publish: true

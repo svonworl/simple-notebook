@@ -1,0 +1,13 @@
+bash-3.2$ more .devcontainer.json 
+{
+    "postAttachCommand": "code /workspaces/simple-notebook/b.ipynb",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-python.python"
+            ]
+        }
+    }
+}
+

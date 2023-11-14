@@ -6,3 +6,4 @@ notebooks:
   - name: b
     path: /b.ipynb
     publish: true
+

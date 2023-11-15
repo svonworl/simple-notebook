@@ -1,8 +1,8 @@
 version: 1.2
 notebooks:
   - name: topica
-    topic: "This is topic A"
+    topic: ""
     path: /notebook.ipynb
   - name: topicb
-    topic: "This is topic B"
+    topic: ""
     path: /notebook.ipynb

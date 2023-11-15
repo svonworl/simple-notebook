@@ -1,5 +1,8 @@
 version: 1.2
 notebooks:
-  - name: simple
+  - name: topica
+    topic: "This is topic A"
     path: /notebook.ipynb
-    publish: true
+  - name: topicb
+    topic: "This is topic B"
+    path: /notebook.ipynb

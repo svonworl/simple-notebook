@@ -2,8 +2,6 @@ version: 1.2
 notebooks:
   - name: simple
     path: /notebook.ipynb
-    format: ipynb
-    language: Python
     otherFiles:
       - /data
       - /info.txt

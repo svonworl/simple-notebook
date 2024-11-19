@@ -1,5 +1,5 @@
 version: 1.2
 notebooks:
-  - name: simple
+  - name: Simple
     path: /notebook.ipynb
     publish: true
